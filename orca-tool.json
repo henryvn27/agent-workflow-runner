@@ -1,0 +1,27 @@
+{
+  "id": "agent-workflow-runner",
+  "name": "Agent Workflow Runner",
+  "repo": "https://github.com/henryvn27/agent-workflow-runner",
+  "description": "Spec, plan, build, review, ship, checkpoint, and next-step workflows for agent-managed implementation.",
+  "category": "workflow",
+  "install": {
+    "git": "git clone https://github.com/henryvn27/agent-workflow-runner.git"
+  },
+  "verify": "ruby scripts/verify.rb",
+  "dependencies": [],
+  "conflicts": [],
+  "provides": [
+    "onboard",
+    "spec",
+    "plan",
+    "build",
+    "review",
+    "ship",
+    "checkpoint",
+    "context",
+    "next-step",
+    "demo"
+  ],
+  "license": "MIT",
+  "source": "Extracted from the manager repo skills into a standalone tool repo."
+}
