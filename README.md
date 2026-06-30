@@ -43,3 +43,9 @@ Machine-readable metadata lives in [orca-tool.json](orca-tool.json).
 ## Proof
 
 See [PROOF.md](PROOF.md).
+
+## Progress HTML
+
+This repo has a root [progress.html](progress.html) status surface.
+
+Agent rule: if `progress.html` exists, update it after meaningful lifecycle changes and before final response. Keep the current goal, Do next, progress bar, latest update, slice/chunk states, timestamps, next actions, and verification evidence current. Do not install hooks, watchers, daemons, or wrappers.
